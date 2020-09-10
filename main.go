@@ -10,4 +10,5 @@ func main() {
 	target := 13
 	s2 := findsum.Findsum(s1, target)
 	fmt.Println(s2)
+	
 }
