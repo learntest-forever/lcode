@@ -2,15 +2,12 @@ package main
 
 import (
 	"fmt"
-	"lcode/reverse"
-	"lcode/twosum"
+	"lcode/findsum"
 )
 
 func main() {
-	l1 := []int{1, 3, 2}
-	l2 := []int{2, 4, 6}
-	twosum.Twosum(&l1, &l2)
-	l3 := []int{1, 2, 5, 7}
-	l5 := reverse.Myreverse(l3, []int{})
-	fmt.Printf("the l5 is :%v\n", l5[:])
+	s1 := []int{1, 5, 8, 11}
+	target := 13
+	s2 := findsum.Findsum(s1, target)
+	fmt.Println(s2)
 }
