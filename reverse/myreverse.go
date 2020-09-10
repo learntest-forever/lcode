@@ -1,4 +1,4 @@
-package reverse2
+package reverse
 
 func Myreverse(s1 []int, s2 []int) []int {
 	s2 = append(s2, s1[len(s1)-1])
